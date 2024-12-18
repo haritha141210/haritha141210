@@ -4,21 +4,21 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'project1.py'
+                echo 'file.py'
                 sh 'make build'  // Example shell command
             }
         }
         
         stage('Test') {
             steps {
-                echo 'project1.py'
+                echo 'file.py'
                 sh 'make test'   // Example test command
             }
         }
 
         stage('Deploy') {
             steps {
-                echo 'project1.py'
+                echo 'file.py'
                 sh 'make deploy' // Example deploy command
             }
         }
